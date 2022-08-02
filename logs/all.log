@@ -45,3 +45,32 @@
 2022-08-02 09:54:17:5417 - [32minfo[39m : [32mConectado com sucesso na porta 3001[39m
 2022-08-02 09:54:52:5452 - [32minfo[39m : [32mConectado com sucesso ao banco de dados !![39m
 2022-08-02 09:54:52:5452 - [32minfo[39m : [32mConectado com sucesso na porta 3001[39m
+2022-08-02 09:55:43:5543 - [32minfo[39m : [32mConectado com sucesso ao banco de dados !![39m
+2022-08-02 09:55:43:5543 - [32minfo[39m : [32mConectado com sucesso na porta 3001[39m
+2022-08-02 10:00:43:043 - [32minfo[39m : [32mConectado com sucesso ao banco de dados !![39m
+2022-08-02 10:00:43:043 - [32minfo[39m : [32mConectado com sucesso na porta 3001[39m
+2022-08-02 10:01:26:126 - [32minfo[39m : [32mConectado com sucesso ao banco de dados !![39m
+2022-08-02 10:01:26:126 - [32minfo[39m : [32mConectado com sucesso na porta 3001[39m
+2022-08-02 10:01:36:136 - [32minfo[39m : [32mConectado com sucesso ao banco de dados !![39m
+2022-08-02 10:01:36:136 - [32minfo[39m : [32mConectado com sucesso na porta 3001[39m
+2022-08-02 10:01:42:142 - [32minfo[39m : [32mConectado com sucesso ao banco de dados !![39m
+2022-08-02 10:01:42:142 - [32minfo[39m : [32mConectado com sucesso na porta 3001[39m
+2022-08-02 10:04:40:440 - [32minfo[39m : [32mConectado com sucesso ao banco de dados !![39m
+2022-08-02 10:04:41:441 - [32minfo[39m : [32mConectado com sucesso na porta 3001[39m
+2022-08-02 10:05:00:50 - [32minfo[39m : [32mConectado com sucesso ao banco de dados !![39m
+2022-08-02 10:05:00:50 - [32minfo[39m : [32mConectado com sucesso na porta 3001[39m
+2022-08-02 10:05:27:527 - [32minfo[39m : [32mConectado com sucesso ao banco de dados !![39m
+2022-08-02 10:05:27:527 - [32minfo[39m : [32mConectado com sucesso na porta 3001[39m
+2022-08-02 10:05:33:533 - [32minfo[39m : [32mConectado com sucesso ao banco de dados !![39m
+2022-08-02 10:05:33:533 - [32minfo[39m : [32mConectado com sucesso na porta 3001[39m
+2022-08-02 10:05:38:538 - [32minfo[39m : [32mConectado com sucesso ao banco de dados !![39m
+2022-08-02 10:05:38:538 - [32minfo[39m : [32mConectado com sucesso na porta 3001[39m
+2022-08-02 10:05:50:550 - [32minfo[39m : [32mConectado com sucesso ao banco de dados !![39m
+2022-08-02 10:05:50:550 - [32minfo[39m : [32mConectado com sucesso na porta 3001[39m
+2022-08-02 10:06:21:621 - [31merror[39m : [31mErro ao buscar os fornecedores: Converting circular structure to JSON[39m
+[31m    --> starting at object with constructor 'MongoClient'[39m
+[31m    |     property 's' -> object with constructor 'Object'[39m
+[31m    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'[39m
+[31m    --- property 'client' closes the circle[39m
+2022-08-02 10:06:55:655 - [32minfo[39m : [32mConectado com sucesso ao banco de dados !![39m
+2022-08-02 10:06:55:655 - [32minfo[39m : [32mConectado com sucesso na porta 3001[39m

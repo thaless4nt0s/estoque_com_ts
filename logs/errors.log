@@ -1,2 +1,7 @@
 2022-08-02 09:31:32:3132 - [31merror[39m : [31mErro ao conectar com o banco de dados: logger_1.default.info is not a function[39m
 2022-08-02 09:31:50:3150 - [31merror[39m : [31mErro ao conectar com o banco de dados: logger_1.default.info is not a function[39m
+2022-08-02 10:06:21:621 - [31merror[39m : [31mErro ao buscar os fornecedores: Converting circular structure to JSON[39m
+[31m    --> starting at object with constructor 'MongoClient'[39m
+[31m    |     property 's' -> object with constructor 'Object'[39m
+[31m    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'[39m
+[31m    --- property 'client' closes the circle[39m
