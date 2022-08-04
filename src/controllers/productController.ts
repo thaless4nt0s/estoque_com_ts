@@ -17,3 +17,15 @@ export async function createProduct(req: Request, res: Response){
     }
 }
 
+export async function getAllProducts(req: Request, res: Response){
+    try{
+        const products = await product.find();
+        if(!products){
+            return res.status(404).json({msg: `Nenhum produto encontrado`});
+        }
+        return res.status(200).json(products);
+    }catch(e: any){
+        Logger.error(`Não foi possível listar os produtos`);
+        return res.status(404).json({msg: `Tente novamente mais tarde`})
+    }
+}
