@@ -31,3 +31,20 @@ export async function findProviderById(req: Request, res: Response){
         return res.status(404).json({error: "Tente novamente mais tarde"});
     }
 }
+
+export async function updateProvider(req: Request, res: Response){
+    try{
+        const id = req.params.id;
+        const data = req.body;
+        const fornecedor = await provider.findById(id);
+        if(!fornecedor){
+            return res.status(422).json({error: `Fornecedor não encontrado`});
+        }
+        await provider.updateOne({_id: id}, data);
+        return res.status(200).json(data);
+    }catch(e: any){
+        Logger.error(`Falha ao atualizar o fornecedor: ${e.message}`);
+        return res.status(404).json({error: 'Falha ao atualizar, tente novamente mais tarde'});
+    }
+}
+
