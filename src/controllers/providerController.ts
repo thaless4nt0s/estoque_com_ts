@@ -48,3 +48,19 @@ export async function updateProvider(req: Request, res: Response){
     }
 }
 
+export async function deleteProvider(req: Request, res: Response){
+    try{
+        const id = req.params.id;
+        const fornecedor = await provider.findById(id);
+        if(!fornecedor){
+            return res.status(404).json({error: "Fornecedor não encontrado !!"});
+        }
+
+        fornecedor.delete();
+        return res.status(200).json({msg: "Fornecedor removido com sucesso !!"});
+
+    }catch(e: any){
+        Logger.error(`Falha ao deletar fornecedor: ${e.message}`);
+        return res.status(404).json({error: 'Falha ao deletar, tente novamente mais tarde'});
+    }
+}
