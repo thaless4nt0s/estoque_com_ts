@@ -10,3 +10,13 @@
 [31m    |     property 's' -> object with constructor 'Object'[39m
 [31m    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'[39m
 [31m    --- property 'client' closes the circle[39m
+2022-08-05 09:08:51:851 - [31merror[39m : [31mNão foi possivel listar o produto[39m
+2022-08-05 09:16:52:1652 - [31merror[39m : [31mNão é possível atualizar o produto: Cast to ObjectId failed for value "62ec4746cc6fd247fd9a70" (type string) at path "_id" for model "product"[39m
+2022-08-05 09:18:34:1834 - [31merror[39m : [31mNão é possível atualizar o produto: Cast to ObjectId failed for value "62ec4746cc6fd247fd9a70" (type string) at path "_id" for model "product"[39m
+2022-08-05 09:19:34:1934 - [31merror[39m : [31mNão é possível atualizar o produto: Cast to ObjectId failed for value "62ec4746cc6fd247fd9a70" (type string) at path "_id" for model "product"[39m
+2022-08-05 09:22:39:2239 - [31merror[39m : [31mNão é possível atualizar o produto: Cast to ObjectId failed for value "62ec4746cc6fd247fd9a70" (type string) at path "_id" for model "product"[39m
+2022-08-05 09:22:41:2241 - [31merror[39m : [31mNão é possível atualizar o produto: Cast to ObjectId failed for value "62ec4746cc6fd247fd9a70" (type string) at path "_id" for model "product"[39m
+2022-08-05 09:32:50:3250 - [31merror[39m : [31mNão é possível atualizar o produto: Cast to ObjectId failed for value "62ec4746cc6fd247fd9a70" (type string) at path "_id" for model "product"[39m
+2022-08-05 09:33:29:3329 - [31merror[39m : [31mNão é possível atualizar o produto: Cast to ObjectId failed for value "62ec4746cc6fd247fd9a70" (type string) at path "_id" for model "product"[39m
+2022-08-05 09:33:35:3335 - [31merror[39m : [31mNão é possível atualizar o produto: Cast to ObjectId failed for value "62ec4746cc6fd247fd9a70" (type string) at path "_id" for model "product"[39m
+2022-08-05 09:33:58:3358 - [31merror[39m : [31mNão é possível atualizar o produto: Cast to ObjectId failed for value "62ec4746cc6fd247fd9a70" (type string) at path "_id" for model "product"[39m

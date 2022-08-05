@@ -1,7 +1,7 @@
 import { Request, Response } from "express";
 
 // Schema
-import {product} from '../models/product';
+import { product } from '../models/product';
 
 //Logs de erro
 import Logger from '../../config/logger';
@@ -35,12 +35,28 @@ export async function getProductById(req: Request, res: Response){
         const id = req.params.id;
         const produto = await product.findById(id);
         if(!produto){
-            return res.status(404).json({msg: `Nenum produto encontrado`});
+            return res.status(404).json({msg: `Nenhum produto encontrado`});
         }
         return res.status(200).json(produto);
     }catch(e: any){
-        Logger.error(`Não foi possivel listar o produto`);
+        Logger.error(`Não foi possivel listar o produto: ${e.message}`);
         return res.status(404).json({msg: `Tente novamente mais tarde`});
     }
 }
 
+export async function updateProduct(req: Request, res: Response){
+    try{
+        const id = req.params.id;
+        const data = req.body;
+        const produto = await product.findById(id);
+        if (!produto){
+            return res.status(404).json({msg: `Não é possível atualizar o produto`});
+        }
+
+        await  product.updateOne({_id: id}, data);
+        return res.status(200).json(data);
+    }catch(e: any){
+        Logger.error(`Não é possível atualizar o produto: ${e.message}`);
+        return res.status(404).json({msg: `Falha ao atualizar, tente novamente mais tarde`});
+    }
+}
