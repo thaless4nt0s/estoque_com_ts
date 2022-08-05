@@ -60,3 +60,18 @@ export async function updateProduct(req: Request, res: Response){
         return res.status(404).json({msg: `Falha ao atualizar, tente novamente mais tarde`});
     }
 }
+
+export async function deleteProduct(req: Request, res: Response){
+    try{
+        const id = req.params.id;
+        const produto = await product.findById(id);
+        if(!produto){
+            return res.status(404).json({msg: `Erro ao excluir produto`});
+        }
+        await produto.delete();
+        return res.status(200).json({msg: `Produto deletado com sucesso !!`});
+    }catch(e: any){
+        Logger.error(`Não é possivel deletar o produto: ${e.message}`);
+        return res.status(404).json({msg: `Falha ao deletar, tente novamente mais tarde`});        
+    }
+}

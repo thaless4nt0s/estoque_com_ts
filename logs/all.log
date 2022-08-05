@@ -307,3 +307,56 @@
 2022-08-05 09:33:58:3358 - [31merror[39m : [31mNão é possível atualizar o produto: Cast to ObjectId failed for value "62ec4746cc6fd247fd9a70" (type string) at path "_id" for model "product"[39m
 2022-08-05 09:34:36:3436 - [32minfo[39m : [32mConectado com sucesso ao banco de dados !![39m
 2022-08-05 09:34:36:3436 - [32minfo[39m : [32mConectado com sucesso na porta 3001[39m
+2022-08-05 09:35:42:3542 - [32minfo[39m : [32mConectado com sucesso ao banco de dados !![39m
+2022-08-05 09:35:42:3542 - [32minfo[39m : [32mConectado com sucesso na porta 3001[39m
+2022-08-05 09:36:04:364 - [32minfo[39m : [32mConectado com sucesso ao banco de dados !![39m
+2022-08-05 09:36:04:364 - [32minfo[39m : [32mConectado com sucesso na porta 3001[39m
+2022-08-05 09:36:11:3611 - [32minfo[39m : [32mConectado com sucesso ao banco de dados !![39m
+2022-08-05 09:36:11:3611 - [32minfo[39m : [32mConectado com sucesso na porta 3001[39m
+2022-08-05 09:36:19:3619 - [32minfo[39m : [32mConectado com sucesso ao banco de dados !![39m
+2022-08-05 09:36:19:3619 - [32minfo[39m : [32mConectado com sucesso na porta 3001[39m
+2022-08-05 09:36:25:3625 - [32minfo[39m : [32mConectado com sucesso ao banco de dados !![39m
+2022-08-05 09:36:25:3625 - [32minfo[39m : [32mConectado com sucesso na porta 3001[39m
+2022-08-05 09:36:31:3631 - [32minfo[39m : [32mConectado com sucesso ao banco de dados !![39m
+2022-08-05 09:36:31:3631 - [32minfo[39m : [32mConectado com sucesso na porta 3001[39m
+2022-08-05 09:36:42:3642 - [32minfo[39m : [32mConectado com sucesso ao banco de dados !![39m
+2022-08-05 09:36:42:3642 - [32minfo[39m : [32mConectado com sucesso na porta 3001[39m
+2022-08-05 09:36:59:3659 - [32minfo[39m : [32mConectado com sucesso ao banco de dados !![39m
+2022-08-05 09:36:59:3659 - [32minfo[39m : [32mConectado com sucesso na porta 3001[39m
+2022-08-05 09:40:08:408 - [32minfo[39m : [32mConectado com sucesso ao banco de dados !![39m
+2022-08-05 09:40:08:408 - [32minfo[39m : [32mConectado com sucesso na porta 3001[39m
+2022-08-05 09:40:41:4041 - [32minfo[39m : [32mConectado com sucesso ao banco de dados !![39m
+2022-08-05 09:40:41:4041 - [32minfo[39m : [32mConectado com sucesso na porta 3001[39m
+2022-08-05 09:40:55:4055 - [32minfo[39m : [32mConectado com sucesso ao banco de dados !![39m
+2022-08-05 09:40:55:4055 - [32minfo[39m : [32mConectado com sucesso na porta 3001[39m
+2022-08-05 09:41:02:412 - [32minfo[39m : [32mConectado com sucesso ao banco de dados !![39m
+2022-08-05 09:41:02:412 - [32minfo[39m : [32mConectado com sucesso na porta 3001[39m
+2022-08-05 09:41:14:4114 - [32minfo[39m : [32mConectado com sucesso ao banco de dados !![39m
+2022-08-05 09:41:14:4114 - [32minfo[39m : [32mConectado com sucesso na porta 3001[39m
+2022-08-05 09:41:23:4123 - [32minfo[39m : [32mConectado com sucesso ao banco de dados !![39m
+2022-08-05 09:41:23:4123 - [32minfo[39m : [32mConectado com sucesso na porta 3001[39m
+2022-08-05 09:41:37:4137 - [32minfo[39m : [32mConectado com sucesso ao banco de dados !![39m
+2022-08-05 09:41:37:4137 - [32minfo[39m : [32mConectado com sucesso na porta 3001[39m
+2022-08-05 09:41:45:4145 - [32minfo[39m : [32mConectado com sucesso ao banco de dados !![39m
+2022-08-05 09:41:45:4145 - [32minfo[39m : [32mConectado com sucesso na porta 3001[39m
+2022-08-05 09:41:49:4149 - [32minfo[39m : [32mConectado com sucesso ao banco de dados !![39m
+2022-08-05 09:41:49:4149 - [32minfo[39m : [32mConectado com sucesso na porta 3001[39m
+2022-08-05 09:41:58:4158 - [32minfo[39m : [32mConectado com sucesso ao banco de dados !![39m
+2022-08-05 09:41:58:4158 - [32minfo[39m : [32mConectado com sucesso na porta 3001[39m
+2022-08-05 09:42:08:428 - [32minfo[39m : [32mConectado com sucesso ao banco de dados !![39m
+2022-08-05 09:42:08:428 - [32minfo[39m : [32mConectado com sucesso na porta 3001[39m
+2022-08-05 09:42:14:4214 - [32minfo[39m : [32mConectado com sucesso ao banco de dados !![39m
+2022-08-05 09:42:14:4214 - [32minfo[39m : [32mConectado com sucesso na porta 3001[39m
+2022-08-05 09:42:18:4218 - [32minfo[39m : [32mConectado com sucesso ao banco de dados !![39m
+2022-08-05 09:42:18:4218 - [32minfo[39m : [32mConectado com sucesso na porta 3001[39m
+2022-08-05 09:42:24:4224 - [32minfo[39m : [32mConectado com sucesso ao banco de dados !![39m
+2022-08-05 09:42:24:4224 - [32minfo[39m : [32mConectado com sucesso na porta 3001[39m
+2022-08-05 09:43:09:439 - [31merror[39m : [31mNão foi possivel listar o produto: Cast to ObjectId failed for value "dassdadsa" (type string) at path "_id" for model "product"[39m
+2022-08-05 09:45:50:4550 - [32minfo[39m : [32mConectado com sucesso ao banco de dados !![39m
+2022-08-05 09:45:50:4550 - [32minfo[39m : [32mConectado com sucesso na porta 3001[39m
+2022-08-05 09:45:53:4553 - [32minfo[39m : [32mConectado com sucesso ao banco de dados !![39m
+2022-08-05 09:45:53:4553 - [32minfo[39m : [32mConectado com sucesso na porta 3001[39m
+2022-08-05 09:46:20:4620 - [32minfo[39m : [32mConectado com sucesso ao banco de dados !![39m
+2022-08-05 09:46:20:4620 - [32minfo[39m : [32mConectado com sucesso na porta 3001[39m
+2022-08-05 09:46:31:4631 - [32minfo[39m : [32mConectado com sucesso ao banco de dados !![39m
+2022-08-05 09:46:31:4631 - [32minfo[39m : [32mConectado com sucesso na porta 3001[39m
