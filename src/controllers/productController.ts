@@ -26,6 +26,21 @@ export async function getAllProducts(req: Request, res: Response){
         return res.status(200).json(products);
     }catch(e: any){
         Logger.error(`Não foi possível listar os produtos`);
-        return res.status(404).json({msg: `Tente novamente mais tarde`})
+        return res.status(404).json({msg: `Tente novamente mais tarde`});
     }
 }
+
+export async function getProductById(req: Request, res: Response){
+    try{
+        const id = req.params.id;
+        const produto = await product.findById(id);
+        if(!produto){
+            return res.status(404).json({msg: `Nenum produto encontrado`});
+        }
+        return res.status(200).json(produto);
+    }catch(e: any){
+        Logger.error(`Não foi possivel listar o produto`);
+        return res.status(404).json({msg: `Tente novamente mais tarde`});
+    }
+}
+
